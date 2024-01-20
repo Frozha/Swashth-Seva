@@ -4,7 +4,7 @@
 <h2>Features</h2>
 <ol>
   <li>
-      <p><b>X-Ray Analysis:</b> Upload MRI images to the system for analysis. </p>
+      <p><b>MRI Analysis:</b> Upload MRI images to the system for analysis. </p>
   </li>
   <li>
     <p>
