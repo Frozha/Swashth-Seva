@@ -4,6 +4,7 @@ import MainContent from './mainContent'
 import BrowsePictures from './BrowsePage';
 import { useState } from 'react';
 import BrowsePage from './BrowsePage';
+import { Footer } from './Footer';
 
 function Home() {
     const [ signState, setSignState ] = useState( false );
@@ -21,6 +22,7 @@ function Home() {
         <div className={` ${ signState ? "filter blur-lg" : "" } `}>
           <Navbar openSignUp={openSignUp}/>
           <MainContent/>
+          <Footer/>
         </div>
         <div className=' absolute top-0 left-0'>
             { signState ? <Login closeSignUp={closeSignUp}/>: "" }
